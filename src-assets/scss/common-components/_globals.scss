@@ -1,0 +1,74 @@
+
+
+@font-face {
+  font-family: 'HelveticaNeue-Extended';
+  src: url('assets/fonts/HelveticaNeue-Extended.otf');
+  font-style: normal;
+}
+
+#svg-sprite {
+  display: none;
+}
+.universal-section {
+  height: 100vh;
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.btn-primary {
+  background-color: transparent;
+  border-radius: 0;
+  border: solid 2px #0f61be;
+  color: #0f61be;
+  text-transform: uppercase;
+  padding: 9px 18px;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 600;
+  &:hover {
+    background-color: #404f6e;
+  }
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #59677f;
+  font-family: 'Helvetica', sans-serif;
+}
+h1 {
+  line-height: 60px;
+}
+.light-colors {
+  h1, h2, h3, h4, h5, h6, p {
+    color: #ffffff;
+  }
+  a {
+    color: white;
+  }
+}
+.no-padding {
+  padding: 0px;
+}
+.nav>li>a {
+  padding: 0 0;
+}
+  /*
+.jet-model-wrapper {
+  display: none;
+}
+*/
+
+/* Jet Model Placement */
+
+.pap-pre-pose {
+  top: -20px;
+}

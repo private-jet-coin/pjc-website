@@ -1,0 +1,27 @@
+.site-header {
+  position: absolute;
+  width: 100%;
+  height: 180px;
+  padding-top: 25px;
+  z-index: 8;
+  nav {
+    .logo-header {
+      padding-top: 0;
+      padding-left: 0;
+      width: 190px;
+      height: 190px;
+      margin: auto;
+      img {
+        width: 190px;
+        height: 190px;
+      }
+    }
+  }
+  .navbar-default{
+    background-color: transparent;
+    border-color: transparent;
+  }
+  .navbar {
+    margin-bottom: 0;
+  }
+}

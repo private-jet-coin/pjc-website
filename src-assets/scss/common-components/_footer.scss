@@ -1,0 +1,118 @@
+.pre-footer {
+  background: #005dcd url(assets/images/pre-footer-background.png) bottom center no-repeat;
+  background-size: 1190px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  .app-store-footer, .play-store-icon-footer {
+    width: 281PX;
+    height: 88px;
+    margin-bottom: 34px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  h1 {
+    font-size: 45px;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  h4 {
+    font-size: 27px;
+    margin-bottom: 35px;
+  }
+}
+.post-footer {
+  padding-top: 40px;
+  padding-bottom: 0px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2e4063+0,41506d+100 */
+  background: #005ccb;
+  p {
+    font-size: 19px;
+    font-family: 'Rajdhani', sans-serif;
+    margin-bottom: 41px;
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .col-lg-3 {
+    ul {
+      text-align: right;
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 20px;
+      li {
+        margin-bottom: 30px;
+        line-height: 14px;
+        a {
+          &:hover {
+            text-decoration: none;
+            color: #b1b1b1;
+          }
+        }
+      }
+    }
+    .language-icon-added {
+      width: 70px;
+      float: right;
+      span {
+        color: #fff;
+        font-size: 10px;
+        text-transform: uppercase;
+        text-align: right;
+        float: right;
+        margin-right: 9px;
+        margin-top: 7px;
+      }
+    }
+  }
+  .col-lg-6 {
+    text-align: center;
+    background: transparent;
+    color: white;
+    border: none;
+    box-shadow: none;
+    .input-group {
+      margin: auto;
+    }
+    input {
+      text-align: center;
+      background: transparent;
+      color: white;
+      border: none;
+      box-shadow: none;
+      border-bottom: solid 1px #fff;
+      padding-bottom: 12px;
+      margin-bottom: 30px;
+    }
+    ::placeholder {
+      color: white;
+      opacity: 1;
+      font-style: italic;
+      letter-spacing: 2px;
+    }
+    .btn-primary {
+      border: solid 1px #fff;
+      color: #fff;
+      padding-top: 23px;
+      padding-bottom: 23px;
+      width: 100%;
+      font-size: 16px;
+      font-family: inherit;
+      text-transform: inherit;
+      letter-spacing: 1px;
+      margin-bottom: 55px;
+      line-height: 13px;
+    }
+  }
+}
+.modal-content {
+  h4.modal-title {
+    color: black;
+  }
+  .modal-body {
+    p {
+      color: black !important;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
